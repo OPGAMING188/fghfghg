@@ -1,0 +1,24 @@
+Welcome to the file "modify.txt". This file will show you what you can modify personally to your liking. Now,  if you will
+please view the specific categorys that are in this text document.
+==main files(all)==
+
+MAKE SURE NOT TO RENAME ANY OF THEM OR SOMETHING WONT WORK ACCORDINGLY!
+
+
+== __resource.lua ==
+
+MAKE SURE NOT TO TOUCH THIS! NOR RENAME!
+
+
+== discord.lua ==
+you can remove the "SetDiscordRichPresenceAssetSmall("small")" // "SetDiscordRichPresenceAsset("big")" this 
+will just show some logos and some other things when hoverd over them.
+
+you can remove the code that shows the street name the current player is on.
+this is noted in the code which part it is to make it easier for you :).
+
+== misc ==
+
+you can find more options for users Discord Presence to add. I'm not to sure where to find it. But you got google as your friend ;)
+
+
