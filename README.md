@@ -10,7 +10,7 @@
 ## The Folder (opies-discord-presence) go into the file: 
 >resources
 ---
-## Make sure not to do touch any of the code. The only stuff you can modify is what is explained in the modify.txt file, this can be located in the folder:
+## Make sure not to  touch any of the code. The only stuff you can modify is what is explained in the modify.txt file, this can be located in the folder:
 >opies-discord-presence
 ---
 ## Now! Simply press the green "Clone or download" button and put the folder (opies-discord-presence) in your resources folder for your server! GLHF
