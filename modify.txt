@@ -21,4 +21,14 @@ this is noted in the code which part it is to make it easier for you :).
 
 you can find more options for users Discord Presence to add. I'm not to sure where to find it. But you got google as your friend ;)
 
+== misc ==
+
+NOTE: You can remove what is listed below from the "discord.lua" file, if you just want what street name they are on! GLHF!!
+
+ SetDiscordRichPresenceAsset("big") 
+        SetDiscordRichPresenceAssetText(GetPlayerName(source)) 
+
+        SetDiscordRichPresenceAssetSmall("small") 
+        SetDiscordRichPresenceAssetSmallText("Health: "..(GetEntityHealth(player)-100))
+
 
