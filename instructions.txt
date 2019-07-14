@@ -1,0 +1,40 @@
+Welcome to the "instructions.txt" file! here you will find how to setup the Discord Rich Presence properly for your server!
+if you need more help, please join with the Discord link here: https://discord.gg/deMbGs4 // from there,
+you will see exactly what to do! GLHF!
+
+== instructions ==
+
+Step 1: visit the Discord Developer Portal here -> https://discordapp.com/developers/applications/
+
+Step 2:(If logged in skip to "Step 3")Make sure you are logged in with your MAIN Discord account, if you arent. You should be prompt to 
+sign in. Or if that doesnt happen, go to https://discordapp.com/
+
+Step 3: Create a new application in the Discord Developer Portal, then name it your server name. (ex: Opie's RolePlay)
+if you dont name it your server name nor what you want and just something random, it will show up on the users current
+game be played. And it wont look as good..
+
+Step 4: Add a image related to your server in the "General Information" tab. Just to keep things organized ;)
+
+Step 5: Copy the "Client ID" in the "General Information" tab. 
+
+Step 6: Go to the discord.lua file (located in the main folder). Now, look for the following:
+SetDiscordAppId(CLIENT-ID-HERE) // Make sure to delete the "CLIENT-ID-HERE" and input the Client ID you copied before
+in the Aplpication Portal!
+
+Step 7: Go back to the Discord Developer Portal and click on the tab "Rich Presence" it will be a multi-option
+selection, but make sure you are on the "Art "Assets". 
+
+Step 8: (You can give it a image where it shows "Cover Image" but it doesnt matter) Go down to the bottom 
+of the page and click on the button that says "Add Image(s)" this will the the actual Presence image. You will have to add two images, Decide which 
+one you would like to be the massive one, and decide which one you would like to be the small image.
+
+Step 9: Name the big image exactly as "big" and the small exactly as "small" and import them using the "Add Image(s)" button in the portal. Make sure to 
+save your changes or it will not work! You can save it by click the Save button that will pop up at the bottom of the screen!
+
+Step 10: Now add the folder named "opies-discord-presence" to your resources folder. And also make sure to add "start  opies-discord-presence" as the server will start the scripts!
+
+== instructions ==
+
+Your done! Make sure you followed all instructions properly. If not done properly make sure to join the Discord Server for support! And if it all works fine and dandy, GLHF. And i will see 
+you in the next script!
+
