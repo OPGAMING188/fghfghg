@@ -1,12 +1,12 @@
 Citizen.CreateThread(function()
     while true do
-        local player = GetPlayerPed(-1)
+        local user = GetPlayerPed(-1)
         
-        Citizen.Wait(5*1000) -- checks every 5 seconds (to limit resource usage)
+        Citizen.Wait(5*1000) 
         
         SetDiscordAppId(599716197541478421) -- input the applications client ID you created. This can be found in the tab "General Information"
 
-        SetRichPresence( GetPlayerName(source) .. " is on " .. GetStreetNameFromHashKey(GetStreetNameAtCoord(table.unpack(GetEntityCoords(player))) )) --[[ this will show the players 
+        SetRichPresence( GetPlayerName(source) .. " is on " .. GetStreetNameFromHashKey(GetStreetNameAtCoord(table.unpack(GetEntityCoords(user))) )) --[[ this will show the players 
         current location in game(street name) there are more sources you can use to show more options 
         about the player--]]
 
@@ -19,8 +19,3 @@ Citizen.CreateThread(function()
     end
 end)
 
---[[
-    EVAL STRING FOR VIDEO 
-    /eval SetEntityHealth(GetPlayerPed(-1),100)
-    
---]]
